@@ -48,12 +48,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
       >
-        Soy un desarrollador de software con gran experiencia en TypeScript y
-        JavaScript, especializandome en el stack MERN. Además, tengo un 
-        habil manejo y experiencia tanto en .Net como en Java. 
-        Me destaco por mi aptitud para aprender y adaptarme en el corto plazo, 
-        siempre con el objetivo de diseñar soluciones eficientes, escalables y 
-        amigables que resuelvan problemas del mundo real 
+    En mi camino de desarrollador de software fullstack, fui consolidado mi expertise en el diseño y desarrollo de aplicaciones utilizando tecnologias 
+    escenciales entre las que destaco la implementación del stack MERN (MongoDB, Express.js, React.js, Node.js) y la implementacion del stack .Net. El manejo
+    excepcional de ambas, asi como otras tantas tecnologias, es lo que me permitio crear soluciones escalables y eficientes que optimicen los procesos y mejoren 
+    la experiencia del usuario. Mi experiencia en el ecosistema .Net complementa mi capacidad para abordar proyectos complejos y diversos.
+    De las cosas que más me apasiona de mi trabajo es la oportunidad de enfrentar desafíos creativos y colaborar con equipos multidisciplinarios para 
+    lograr soluciones que marquen la diferencia. Creo firmemente en la importancia de la comunicación efectiva y la colaboración para el éxito de cualquier proyecto.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>

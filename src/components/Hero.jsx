@@ -18,7 +18,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Desarrollador FullStack <br className='sm:block hidden'/>
+            Desarrollador FullStack (MERN & .NET)<br className='sm:block hidden'/>
           </p>
         </div>
       </div>

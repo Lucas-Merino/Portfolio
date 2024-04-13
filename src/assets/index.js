@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
+import stack from "./stack.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -22,11 +22,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import rickAndMorty from "./rickAndMorty.png"
+import propertiesDashboard from "./propertiesDashboard.png"
+import twiddle from "./twiddle.png"
 
 export {
   logo,
   backend,
-  creator,
+  stack,
   mobile,
   web,
   github,
@@ -46,4 +48,6 @@ export {
   typescript,
   threejs,
   rickAndMorty,
+  propertiesDashboard,
+  twiddle
 };

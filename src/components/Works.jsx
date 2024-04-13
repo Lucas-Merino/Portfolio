@@ -14,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  web_link,
   source_code_link,
 }) => {
   return (
@@ -26,7 +27,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] cursor-pointer' onClick={() => window.open(web_link, "_blank")}>
           <img
             src={image}
             alt='project_image'
@@ -80,9 +81,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
         >
-          Cada proyecto esta brevemento descripto junto a los links hacia 
-          sus respectivos repositorios. Estos reflejan mi conocimiento en 
-          las distintas areas segun las tecngologias utilizadas
+          Estos proyectos representan mi trayectoria de aprendizaje y experiencia en diferentes áreas tecnológicas. 
+          Cada uno de ellos contribuyó significativamente a mi desarrollo profesional y habilidades técnicas. A continuacion, 
+          se presenta una breve descripcion de cada uno junto con sus enlaces a sus respectivos respositorios y hacia el propio
+          sitio web
         </motion.p>
       </div>
 
